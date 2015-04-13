@@ -42,7 +42,7 @@ $(document).ready(function(){
     if (count() == 5) {
         guesses = [];
         $('.hint').removeClass();
-        $('.message').addClass('gameOver').text("Game over! Please press new game to play again.");
+        $('.message').addClass('gameOver').text("Game over! No More Guesses. Please press new game to play again.");
     }
     else if (isNaN(value) || value>100 || value<0){
       guesses.pop();
